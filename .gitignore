@@ -1,0 +1,14 @@
+volumes/
+__pycache__/
+*.log
+output/
+final_output/
+nuclear output pdf/
+__pycache__/
+volumes/
+*.log
+*.pyc
+*.pyo
+*.DS_Store
+.venv/
+get-pip.py
