@@ -1,14 +1,42 @@
-volumes/
+# Ignore embedding-generated files
+*.json
+*.md
+
+# Ignore LaTeX temporary files
+latex-output/
+latex-output/*.aux
+latex-output/*.out
+latex-output/*.swp
+latex-output/*.log
+latex-output/*.pdf
+latex-output/*.tex
+latex-output/*.synctex.gz
+latex-output/*.lof
+latex-output/*.lot
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+ranj/  # Remove this if not your usual venv name
+
+# Ignore Python cache
 __pycache__/
+*.pyc
+*.pyo
+
+# Ignore log files
 *.log
+
+# Ignore OS-specific files
+*.DS_Store
+
+# Ignore generated output directories
 output/
 final_output/
 nuclear output pdf/
-__pycache__/
 volumes/
-*.log
-*.pyc
-*.pyo
-*.DS_Store
-.venv/
+
+# Ignore Python package installers
 get-pip.py
+ranj/
