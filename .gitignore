@@ -1,3 +1,6 @@
+# Ignore environment variable files
+.env
+
 # Ignore embedding-generated files
 *.json
 *.md
@@ -18,7 +21,7 @@ latex-output/*.lot
 .venv/
 env/
 venv/
-ranj/  # Remove this if not your usual venv name
+ranj/
 
 # Ignore Python cache
 __pycache__/
@@ -39,4 +42,3 @@ volumes/
 
 # Ignore Python package installers
 get-pip.py
-ranj/
